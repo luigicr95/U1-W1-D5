@@ -9,6 +9,7 @@ body {
   color: #393d41;
   font-size: 1.5rem;
   line-height: 1.65;
+  m
 }
 .headings {
   font-family: "Montserrat", sans-serif;
@@ -39,3 +40,29 @@ button {
   padding: 5%;
   margin-top: 10%;
 }
+
+.round-image{border-radius: 200px;
+width: 80%;
+height:80%;
+margin:10%}
+
+.second-title{margin: 10%;}
+
+.evidence{background-color: #e22d0e;
+margin-top:10%;
+margin-bottom: 10%;
+padding:10%;
+color:white}
+
+.third-title{font-family: "Montserrat", sans-serif;
+font-size: 120% ;
+margin-bottom:10%}
+
+.quote{font-size:60% ;
+font-style: italic;
+margin-bottom: 10%;}
+
+.author-name{font-size: 80%}
+.position{font-size: 40%;}
+
+
