@@ -9,27 +9,31 @@ body {
   color: #393d41;
   font-size: 1.5rem;
   line-height: 1.65;
-  m
 }
 .headings {
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   color: #25a2c3;
 }
 
-.blackbackground {
+.black-background {
   background-color: black;
-  height
+  padding: 10%;
 }
 
-.backgroundimage {
+.background-image {
   background-image: url(../images/banner.jpg);
   background-size: cover;
   padding: 10%;
   margin-bottom: 10%;
 }
 
-.first-title{font-size: 165%;
-margin-bottom: 10%;}
+.first-title {
+  font-size: 165%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  line-height: 100%;
+}
 
 button {
   background-color: #f04c2f;
@@ -41,28 +45,86 @@ button {
   margin-top: 10%;
 }
 
-.round-image{border-radius: 200px;
-width: 80%;
-height:80%;
-margin:10%}
+.round-image {
+  border-radius: 200px;
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+}
 
-.second-title{margin: 10%;}
+.second-title {
+  margin: 10%;
+}
 
-.evidence{background-color: #e22d0e;
-margin-top:10%;
-margin-bottom: 10%;
-padding:10%;
-color:white}
+.main-section {
+  padding-left: 4%;
+  padding-right: 4%;
+}
 
-.third-title{font-family: "Montserrat", sans-serif;
-font-size: 120% ;
-margin-bottom:10%}
+.evidence {
+  background-color: #e22d0e;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 10%;
+  color: white;
+}
 
-.quote{font-size:60% ;
-font-style: italic;
-margin-bottom: 10%;}
+.third-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 120%;
+  margin-bottom: 10%;
+}
 
-.author-name{font-size: 80%}
-.position{font-size: 40%;}
+.quote {
+  font-size: 60%;
+  font-style: italic;
+  margin-bottom: 10%;
+}
 
+.author-name {
+  font-size: 80%;
+}
 
+.position {
+  font-size: 40%;
+}
+
+.inbox-image {
+  width: 100%;
+  height: 100%;
+}
+
+.image-box {
+  width: 80%;
+  border: 1px solid #dee1e3;
+  padding: 10%;
+  font-size: 70%;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  margin: 10%;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+footer {
+  background-color: #25a2c3;
+  color: white;
+  padding: 10%;
+  font-size: 70%;
+}
+
+.footer-h {
+  color: white;
+  font-size: 165%;
+  margin-bottom: 10%;
+  line-height: 100%;
+}
+
+hr {
+  margin: 10%;
+}
+
+.footer-link {
+  color: white;
+}
