@@ -4,6 +4,7 @@ html {
 }
 
 body {
+  width: 100;
   text-align: center;
   font-family: "Open Sans", sans-serif;
   color: #393d41;
@@ -37,7 +38,7 @@ body {
 }
 
 button {
-  background-color: #f04c2f;
+  background-color: #e22d0e;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: white;
